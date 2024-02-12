@@ -1,0 +1,44 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+.app {
+  border: 2px solid black;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+form > section {
+  margin-bottom: 2rem;
+}
+
+form > section > label {
+  display: inline-block;
+  width: 15rem;
+  margin-right: 1rem;
+  /* background-color: aqua; */
+
+}
+
+form > button[type = "submit"] {
+  /* background-color: yellow; */
+  display: block;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  border-radius: 2rem;
+  color: white;
+  background-color: blue;
+  padding: 0.5rem 1rem;
+}
